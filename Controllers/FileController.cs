@@ -11,7 +11,7 @@ namespace Abi_REST
         public async Task<IActionResult> GetFile()
         {
             var file = new FileResponse();
-            var json=await file.ReadFile();
+            string json=await file.ReadFile();
             return Ok(json);
         }
     }

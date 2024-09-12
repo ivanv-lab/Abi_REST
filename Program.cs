@@ -31,8 +31,6 @@ namespace Abi_REST
 
             app.MapControllers();
 
-            //app.UseStaticFiles();
-
             app.Run();
         }
     }
